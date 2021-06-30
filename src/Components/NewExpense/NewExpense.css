@@ -1,0 +1,7 @@
+.expense-form{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+}

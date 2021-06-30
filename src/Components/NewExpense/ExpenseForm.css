@@ -1,0 +1,39 @@
+.input-form-controls{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-wrap: wrap;
+color: #333;
+}
+.input-form-control{
+    margin: 0.5rem 0;
+}
+.input-form-control label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+.input-form-control input{
+    padding: 0.6rem 0.3rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #eee;
+    width: 210px;
+}
+.expense-form-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.expense-form-button button{
+    border: none;
+    background-color: #333;
+    color: #eee;
+    padding: 14px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 1rem;
+    margin-bottom: 0;
+}
