@@ -26,6 +26,7 @@ export default function Expenses(props) {
           filteredByYear.map((expense) => {
             return (
               <ExpenseItem
+                key={expense.id}
                 name={expense.title}
                 amount={expense.amount}
                 date={expense.date}
